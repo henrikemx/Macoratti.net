@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
             height: 40,
             child: Row(
               children: <Widget>[
-                Text('Meu BottomAppBar'),
+                Text('Meu ButtomAppBar'),
             
             Icon(Icons.home)],
             ),
