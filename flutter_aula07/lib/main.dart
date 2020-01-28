@@ -22,14 +22,34 @@ class WidgetBasicos extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Widgets Básicos'),
+        // posicionar o texto no centro do AppBar
         centerTitle: true,
       ),
       body: Container(
-        color: Colors.deepPurple, // cor de fundo do Scaffold
+        // definir a cor de fundo do Container
+        color: Colors.deepPurple,
         child: widgetButton(),
-              ),
-            );
-          }
-        
-          widgetButton() {}
+      ),
+    );
+  }
+
+  widgetButton() {
+    return Center(
+      child: RaisedButton(
+        // definir a cor do botão
+        color: Colors.orange,
+        // definir a cor do texto do botão
+        textColor: Colors.white,
+        // definir o valor de elevation do botão
+        elevation: 30,
+        child: Text('Clique aqui'),
+        // aplicando a técnica do Arrow Function
+        onPressed: () => exibirTexto('O botão foi clicado'),
+      ),
+    );
+  }
+
+  void exibirTexto(String msg) {
+    print(msg);
+  }
 }
