@@ -1,4 +1,0 @@
-#Tue Jan 28 20:24:11 BRST 2020
-base.0=/mnt/146EC44B6EC42778/Users/Henrique/FlutterProjects/Macoratti.net/flutter_aula07/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
