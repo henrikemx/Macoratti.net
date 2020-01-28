@@ -26,19 +26,10 @@ class WidgetBasicos extends StatelessWidget {
       ),
       body: Container(
         color: Colors.deepPurple, // cor de fundo do Scaffold
-        child: Center(
-          child: Text(
-          'Widget Text',
-          style: TextStyle(
-            fontSize: 40,
-            color: Colors.orange,
-            fontWeight: FontWeight.bold,
-            decoration: TextDecoration.underline,
-            decorationColor: Colors.green,
-            decorationStyle: TextDecorationStyle.dashed,
-            ),
-          ),),
-      ),
-    );
-  }
+        child: widgetButton(),
+              ),
+            );
+          }
+        
+          widgetButton() {}
 }
