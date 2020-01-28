@@ -9,8 +9,10 @@ class MyApp extends StatelessWidget {
       child: Text(
         'Olá Flutter 2020',
         textDirection: TextDirection.ltr,
-        style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-      ),
+        style: TextStyle(
+          fontSize: 30, 
+          fontWeight: FontWeight.bold
+          )),
     );
   }
 }
