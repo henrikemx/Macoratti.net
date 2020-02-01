@@ -24,11 +24,11 @@ class widgetScaffold extends StatelessWidget {
           child: Row(
             children: <Widget>[
               Icon(Icons.home),
-              Text('Este Ã© um Widget BottomAppBar'),
+              Text('Este é um Widget BottomAppBar'),
             ],
           ),
         ),
-        color: Colors.yellow, // cor da barra de navegaÃ§Ã£o
+        color: Colors.yellow, // cor da barra de navegação
       ),
       persistentFooterButtons: <Widget>[
         IconButton(
